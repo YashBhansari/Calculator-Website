@@ -4,6 +4,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* margin: 0; */
+    overflow: hidden;
 }
 
 #position {
@@ -11,10 +13,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0;
 }
 
 #calci {
-    position: absolute;
+
     margin-left: 5px;
     white-space: nowrap;
     background-color: rgb(86, 86, 86);
@@ -56,4 +59,13 @@ button:hover {
 
 button:active {
     opacity: 0.3;
+}
+
+#credit {
+    position: relative;
+    bottom: 70px;
+    float: inline-end;
+    text-align: right;
+    color: azure;
+    font-family: cursive;
 }
